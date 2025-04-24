@@ -50,7 +50,7 @@ addEventListener("DOMContentLoaded", (event) => {
 
         const itemHeight = document.querySelector(".leveraging-section-wrapper.leveraging-section-wrapper-a").offsetHeight;
         const textHeight = document.querySelector(".per-image-special-text").offsetHeight;
-        let condition = (itemHeight - textHeight) - 160;
+        let condition = (itemHeight - textHeight) - 196;
 
         console.log(itemHeight)
 

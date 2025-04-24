@@ -35,7 +35,6 @@
     font-family: 'SnowflakeSans';
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 1.5rem;
     color: #1E3932;
 }
 
@@ -187,6 +186,18 @@
     margin-bottom: 1rem;
 }
 
+.space-btm-a {
+    margin-bottom: 1rem;
+}
+
+.space-btm-b {
+    margin-bottom: calc(1rem + 8px);
+}
+
+.space-btm-c {
+    margin-bottom: 1rem;
+}
+
 .watch {
     text-decoration: none;
 }
@@ -237,9 +248,9 @@ section {
     justify-content: center;
 }
 
-.banner-wrapper .logo {
+/* .banner-wrapper .logo {
     margin-bottom: 1rem;
-}
+} */
 
 .banner1 {
     position: absolute;
@@ -484,7 +495,7 @@ section {
 }
 
 .leveraging-section-wrapper2.block-reverse {
-    padding: 0 0 4rem;
+    padding: 4rem 0 4rem;
 }
 
 .leveraging-section-wrapper2:last-child {
@@ -929,9 +940,17 @@ section {
         padding: 1rem 0;
     }
 
-    .leveraging-section-wrapper,
+    
     .leveraging-section-wrapper2:last-child {
         padding: 1rem 0 2rem;
+    }
+
+    .leveraging-section-wrapper {
+        padding: 1rem 0 4rem;
+    }
+
+    .leveraging-section-wrapper2.block-reverse {
+        padding: 0 0 4rem;
     }
 
     .leveraging-block .per-image-special {
